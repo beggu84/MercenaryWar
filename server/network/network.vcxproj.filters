@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{b59467f2-3243-4a7d-bffa-118d58a457a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{84cee60d-f81e-4378-b251-f47b935d79da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{fee7ff65-911d-47f1-b155-286d9acb8ff2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="WebServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Encoder.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="TableBase.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageAgentBase.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonHelper.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomHelper.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpDownloader.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLogger.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WebServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Encoder.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="TableBase.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageAgentBase.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonHelper.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomHelper.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpDownloader.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBase.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
